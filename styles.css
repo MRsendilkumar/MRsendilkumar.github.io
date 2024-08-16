@@ -1,0 +1,151 @@
+/* Basic reset and typography */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.name-container {
+    position: relative;
+}
+
+.animated-name {
+    font-size: 2.5rem;
+    margin: 0;
+    display: inline-block;
+    animation: fadeInAndBounce 3s ease-in-out infinite;
+}
+
+/* Keyframe animations */
+@keyframes fadeInAndBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Main content styles */
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .animated-name {
+        font-size: 2rem;
+    }
+}
+/* Basic reset and typography */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/wallpaper.jpg'); /* Update the path to your image file */
+    background-size: cover; /* Makes sure the background image covers the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    color: #333;
+}
+
+header {
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent background for readability */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.name-container {
+    position: relative;
+}
+
+.animated-name {
+    font-size: 2.5rem;
+    margin: 0;
+    display: inline-block;
+    animation: fadeInAndBounce 3s ease-in-out infinite;
+}
+
+/* Keyframe animations */
+@keyframes fadeInAndBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Main content styles */
+main {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 8px; /* Rounded corners */
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent background for readability */
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .animated-name {
+        font-size: 2rem;
+    }
+}
